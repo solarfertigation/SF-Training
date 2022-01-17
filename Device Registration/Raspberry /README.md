@@ -6,6 +6,7 @@
 ```
 sudo apt-get update
 ```
+
 > Update Raspy Repo
 ```
 sudo apt-get upgrade
@@ -30,8 +31,6 @@ git --version
 ```
 sudo apt-get install git
 ```
-> Update Raspy Repo
-```
 
 > Update Raspy Repo
 ```
@@ -48,6 +47,7 @@ curl -sL https://deb.nodesource.com/setup_17.x | sudo -E bash -
 ```
 sudo apt-get install -y nodejs
 ```
+
 > Update Raspy Repo
 ```
 node -v
@@ -75,14 +75,12 @@ npm install aws-iot-device-sdk-v2
 ```
 
 > Update Raspy Repo
-
 ```
 cd ~/aws-iot-device-sdk-js-v2
 npm install
 ```
 
-> Creare un nuovo device certificato AWS
-(https://eu-central-1.console.aws.amazon.com/iot/home?region=eu-central-1#/connectdevice/)
+- [Creare un nuovo device certificato AWS] (https://eu-central-1.console.aws.amazon.com/iot/home?region=eu-central-1#/connectdevice/)
 
 > Download and Send to Raspberry cartella certs
 ```
