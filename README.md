@@ -3,8 +3,8 @@
 > Cloning MicroSD 
 - [Win32 Disk Imager] (https://sourceforge.net/projects/win32diskimager/files/latest/download)
 
-> Last RapsyOS Release
-(https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf-full.img.xz)
+> Download RapsyOS Release
+- [RaspyOS] - (https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf-full.img.xz)
 
 > Burn Image Downloaded
 - [BalenaEtcher] - (https://github.com/balena-io/etcher/releases/download/v1.7.9/balenaEtcher-Setup-1.7.9.exe)
