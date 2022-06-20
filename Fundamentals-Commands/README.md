@@ -64,7 +64,7 @@ git add -A
 ```
 git commit -m "Testo Commit
 ```
-> Git commit
+> Git push
 ```
 git push origin <nomebranch>
 ```
