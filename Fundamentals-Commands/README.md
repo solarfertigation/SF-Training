@@ -50,6 +50,63 @@ sudo apt-get install <nomepacchetto>
 sudo apt-get remove <nomepacchetto>
 ```
 
+# Fundamentals of Directory & Files
+
+> Creare nuova directory 
+```
+sudo mkdir <nomecartella>
+```
+> Creare nuovo file  
+```
+sudo touch <nomefile>
+```
+
+> Copiare directory
+```
+sudo cp -r percorsoorigine percorsodestinatione
+```
+
+> Cancellare directory
+```
+sudo rm -rf  percorsoorigine percorsodestinatione
+```
+
+> Rinominare directory e files
+```
+sudo mv  pathorigin/nomefile pathdestination/nomefile
+```
+
+# Fundamentals of BASH
+> Permessi CHMOD
+```
+sudo chmod +x <nomefile.sh>
+```
+> Lanciare Script
+```
+sudo ./<nomefile.sh>
+```
+
+# Raspberry Service on Boot  
+```
+sudo cp nomeservizio.service /etc/systemd/system/
+```
+```
+cd /etc/systemd/system/
+```
+```
+sudo chmod 644 nomeservizio.service
+```
+```
+sudo systemctl daemon-reload
+```
+```
+sudo systemctl enable nomeservizio.service
+sudo systemctl status nomeservizio.service
+sudo systemctl start nomeservizio.service
+sudo systemctl stop nomeservizio.service
+sudo systemctl restart nomeservizio.service
+```
+
 # Fundamentals of NPM
 > Rimuovere Pacchetti
 ```
