@@ -75,6 +75,10 @@ sudo rm -rf  percorsoorigine percorsodestinatione
 ```
 sudo mv  pathorigin/nomefile pathdestination/nomefile
 ```
+> Editor di Codice
+```
+sudo nano <nomefile>
+```
 
 # Fundamentals of BASH
 > Permessi CHMOD
