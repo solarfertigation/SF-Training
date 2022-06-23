@@ -50,6 +50,16 @@ sudo apt-get install <nomepacchetto>
 sudo apt-get remove <nomepacchetto>
 ```
 
+# Aggiungere e rimuovere utenti
+> Add Users
+```
+sudo adduser <nomeutente>
+```
+> Remove Users
+```
+sudo userdel-r <nomeutente>
+```
+
 # Fundamentals of Directory & Files
 
 > Creare nuova directory 
@@ -73,7 +83,7 @@ sudo rm -rf  percorsoorigine percorsodestinatione
 
 > Rinominare directory e files
 ```
-sudo mv  pathorigin/nomefile pathdestination/nomefile
+sudo mv  percorsoorigine/nomefile percorsoestinatione/nomefile
 ```
 > Editor di Codice
 ```
@@ -123,7 +133,7 @@ git add -A
 ```
 > Git commit 
 ```
-git commit -m "Testo Commit
+git commit -m "Testo Commit"
 ```
 > Git push
 ```
