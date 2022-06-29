@@ -22,12 +22,15 @@ hostname -I
 
 > SSH Connection
 ```
-ssh <raspberryhostmane>@<raspberryipaddress>
+ssh <raspberrydefaultuser>@<raspberryipaddress>
 default hostname: pi | password: raspberry
 ```
 > SSH Re-Build Key
 ```
-ssh-keygen -R "hostname/ipaddress"
+sudo ssh-keygen -R "hostname/ipaddress"
+```
+```
+sudo ssh <raspberrydefaultuser>@<raspberryipaddress>
 ```
 
 # Fundamentals of SUDO
